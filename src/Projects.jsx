@@ -2,6 +2,7 @@ import jobharvester from "/images/projects/jobharvester.png";
 import matchmaking from "/images/projects/matchmaking.webp";
 import profile from "/images/projects/profile.webp";
 import timeline from "/images/projects/timeline.webp";
+import duddle_jump from "/images/projects/duddle_jump.png";
 import { Link } from "react-router-dom";
 
 const Projects = () => {
@@ -62,6 +63,30 @@ const Projects = () => {
                         
                         <div className="project-single-image">
                             <img src={ jobharvester } alt=""/>
+                        </div>
+                    </div>
+
+                    <div className="project-card">
+                        <div className="project-card-text">
+                            <h1 className="project-card-title">Duddle Jump Clone</h1>
+                        
+                            <p>
+                                This is a vertical platformer simular to duddle jumb make with pygame.
+                            </p>
+
+                            <div className="button-row">
+                                {/* <a href="https://github.com/robinmonsere/FitBuddy_App" className="github">
+                                    <button className="github-button">Github</button>
+                                </a> */}
+
+                                {/* <Link className="project-link" to="/React-Portfolio/projects/detailed-view">
+                                    <button className="detail-button">Detailed View</button>
+                                </Link> */}
+                            </div>   
+                        </div>
+                        
+                        <div className="project-images">
+                            <img src={ duddle_jump } alt=""/>   
                         </div>
                     </div>
                 </div>
