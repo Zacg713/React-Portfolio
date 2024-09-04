@@ -2,7 +2,8 @@ import jobharvester from "/images/projects/jobharvester.png";
 import matchmaking from "/images/projects/matchmaking.webp";
 import profile from "/images/projects/profile.webp";
 import timeline from "/images/projects/timeline.webp";
-import duddle_jump from "/images/projects/duddle_jump.png";
+import jumpy_game from "/images/projects/jumpy_game.png";
+import jumpy_character_select from "/images/projects/jumpy_character_select.png";
 import { Link } from "react-router-dom";
 
 const Projects = () => {
@@ -86,7 +87,8 @@ const Projects = () => {
                         </div>
                         
                         <div className="project-images">
-                            <img src={ duddle_jump } alt=""/>   
+                            <img src={ jumpy_character_select } alt=""/>
+                            <img src={ jumpy_game } alt=""/> 
                         </div>
                     </div>
                 </div>

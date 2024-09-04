@@ -185,6 +185,9 @@
   justify-items: center;
   justify-content: space-around;
 }
+.project-images img{
+  width: 100vw;
+}
 .project-single-image {
   width: 45vw;
   justify-items: center;
